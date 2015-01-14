@@ -1,0 +1,12 @@
+# Site settings
+title: Inspiration and resources
+twitter_username: designer023
+github_username:  designer023
+
+# Build settings
+markdown: kramdown
+
+
+name: Inspiration and resources
+highlighter: true
+baseurl: /inspiration-and-resources

@@ -1,0 +1,15 @@
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Inspiration and resources</h1>
+        <p>A library of resources and inspiration.</p>
+        
+
+
+          <ul class="site-navigation">
+          {% for page in site.pages %}
+              <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+          {% endfor %}
+          </ul>
+  
+      </header>
